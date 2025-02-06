@@ -13,12 +13,14 @@
         <div class="container">
             <nav>
                 <img src="images/wincer_logo.png" alt="" class="logo">
-                <ul>
+                <ul id="sidemenu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Contacts</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <!-- <h1><span>Grid</span> Online</h1>
@@ -124,6 +126,9 @@
                     </form>
                 </div>
             </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Grid Online</p>
         </div>
      </div>
 </body>
