@@ -226,7 +226,7 @@ nav ul li:hover::after{
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6),#008037);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -248,7 +248,7 @@ nav ul li:hover::after{
 
 .layer a{
     margin-top: 20px;
-    color: #ff004f;
+    color: #008037;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -275,6 +275,7 @@ nav ul li:hover::after{
     padding: 14px 50px;
     border-radius: 6px;
     color: #fff;
+    background-color:#fcc018 ;
     text-decoration: none;
     transition: background 0.5s;
 }
@@ -382,10 +383,11 @@ nav .fas{
     nav .fas{
         display: block;
         font-size: 25px;
+        
     }
 
     nav ul{
-        background: #0cbd06;
+        background: #fff;
         position: fixed;
         top: 0;
         right: -200px;
