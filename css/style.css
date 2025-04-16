@@ -210,7 +210,8 @@ nav ul li:hover::after{
     transform: rotateY(180deg);
 }
 
-.front-page,.back-page{
+/* .front-page, */
+.back-page{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -221,11 +222,18 @@ nav ul li:hover::after{
 .front-page{
     /* background-image: url(../images/SEO.png); */
     background-size: cover;
+    border-radius: 15px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
 }
 
 .front-page img{
     width: 100%;
     height: 100%;
+    border-radius: 15px;
 }
 
 .card-info{
