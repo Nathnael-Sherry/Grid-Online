@@ -1,1 +1,1 @@
-![Uploading logo2.jpg…]()
+<img src="images/Grid1.png" alt="">
