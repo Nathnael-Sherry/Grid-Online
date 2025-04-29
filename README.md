@@ -1,1 +1,1 @@
-<img src="images/Grid1.png" alt="">
+<img src="images/logo2.png" alt="">
