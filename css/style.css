@@ -5,9 +5,9 @@
     box-sizing: border-box;
 }  */
 
-/* html{
+html{
     scroll-behavior: smooth;
-} */
+}
 
 body{
     background: #fff;
@@ -42,6 +42,7 @@ nav{
     /* position: unset; */
     
 }
+/* x */
 
 .logo{
     width: 140px;
@@ -124,7 +125,7 @@ nav ul li:hover::after{
 }
 
 .header-col-2 img{
-    width: 500px;
+    width: 470px;
     height: 500px;
     border-radius: 70px;
     margin-left: 20px;
