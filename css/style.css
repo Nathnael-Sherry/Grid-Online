@@ -198,7 +198,7 @@ nav ul li:hover::after{
 }
 
 .card{
-    width: 360px;
+    width: 310px;
     height: 430px;
     transform-style: preserve-3d;
     transition: transform .8s ease-in-out;
